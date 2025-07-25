@@ -7,11 +7,11 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigation = [
-    { name: "Home", href: "#home" },
-    { name: "Products", href: "#products" },
+    { name: "Home", href: "/" },
+    { name: "Shop", href: "/shop" },
+    { name: "Laddoos", href: "/laddoos" },
+    { name: "Savory Snacks", href: "/savory-snacks" },
     { name: "About", href: "#about" },
-    { name: "Health Benefits", href: "#benefits" },
-    { name: "Contact", href: "#contact" },
   ];
 
   return (
@@ -53,8 +53,8 @@ const Header = () => {
                 3
               </span>
             </Button>
-            <Button variant="turmeric" size="sm">
-              Shop Now
+            <Button variant="turmeric" size="sm" asChild>
+              <a href="/shop">Shop Now</a>
             </Button>
           </div>
 
@@ -95,8 +95,8 @@ const Header = () => {
                 </Button>
               </div>
               <div className="px-3 pt-2">
-                <Button variant="turmeric" size="sm" className="w-full">
-                  Shop Now
+                <Button variant="turmeric" size="sm" className="w-full" asChild>
+                  <a href="/shop">Shop Now</a>
                 </Button>
               </div>
             </div>
