@@ -42,7 +42,7 @@ const ProductCard = ({ product, showQuickView = false }: ProductCardProps) => {
           <Button
             variant="ghost"
             size="icon"
-            className="bg-white/90 hover:bg-white hover:text-destructive transition-all"
+            className="bg-primary-foreground/90 hover:bg-background hover:text-destructive transition-all"
           >
             <Heart className="w-4 h-4" />
           </Button>
@@ -50,7 +50,7 @@ const ProductCard = ({ product, showQuickView = false }: ProductCardProps) => {
             <Button
               variant="ghost"
               size="icon"
-              className="bg-white/90 hover:bg-white transition-all"
+              className="bg-primary-foreground/90 hover:bg-background transition-all"
             >
               <Eye className="w-4 h-4" />
             </Button>

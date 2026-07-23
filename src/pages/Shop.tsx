@@ -131,7 +131,7 @@ const Shop = () => {
           {/* Mobile Filter Sidebar */}
           {showFilters && (
             <div className="fixed inset-0 z-50 md:hidden">
-              <div className="fixed inset-0 bg-black/50" onClick={() => setShowFilters(false)} />
+              <div className="fixed inset-0 bg-foreground/50" onClick={() => setShowFilters(false)} />
               <div className="fixed left-0 top-0 bottom-0 w-80 bg-background overflow-y-auto p-4">
                 <FilterSidebar />
               </div>
