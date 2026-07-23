@@ -40,7 +40,7 @@ const Footer = () => {
       <div className="border-b border-primary-foreground/10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center space-x-2 bg-white/10 rounded-full px-4 py-2 mb-6">
+            <div className="inline-flex items-center space-x-2 bg-primary-foreground/10 rounded-full px-4 py-2 mb-6">
               <Leaf className="w-4 h-4 text-accent" />
               <span className="text-sm font-medium">Stay Healthy</span>
             </div>
@@ -54,7 +54,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-accent"
+                className="flex-1 px-4 py-3 rounded-lg bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/60 focus:outline-none focus:ring-2 focus:ring-accent"
               />
               <Button variant="turmeric" className="shrink-0">
                 Subscribe
@@ -80,13 +80,13 @@ const Footer = () => {
               ancient wisdom with modern nutrition science for a healthier lifestyle.
             </p>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="icon" className="text-primary-foreground hover:text-accent hover:bg-white/10">
+              <Button variant="ghost" size="icon" className="text-primary-foreground hover:text-accent hover:bg-primary-foreground/10">
                 <Facebook className="w-5 h-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="text-primary-foreground hover:text-accent hover:bg-white/10">
+              <Button variant="ghost" size="icon" className="text-primary-foreground hover:text-accent hover:bg-primary-foreground/10">
                 <Instagram className="w-5 h-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="text-primary-foreground hover:text-accent hover:bg-white/10">
+              <Button variant="ghost" size="icon" className="text-primary-foreground hover:text-accent hover:bg-primary-foreground/10">
                 <Twitter className="w-5 h-5" />
               </Button>
             </div>
