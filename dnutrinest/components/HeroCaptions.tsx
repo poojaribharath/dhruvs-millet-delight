@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion, useTransform, type MotionValue } from "framer-motion";
 import { HERO_SCENES, type HeroScene } from "@/lib/hero-config";
 
@@ -76,18 +77,18 @@ function Caption({
 
       {isFinal && scene.cta && (
         <div className="pointer-events-auto mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
-          <a
-            href="#collection"
+          <Link
+            href="/shop"
             className="rounded-full bg-millet-primary px-8 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white shadow-[0_8px_30px_-8px_rgba(47,208,114,0.5)] transition-colors duration-500 ease-cinema hover:bg-millet-fg"
           >
             {scene.cta.primary}
-          </a>
-          <a
-            href="#collection"
+          </Link>
+          <Link
+            href="/about"
             className="rounded-full border border-white/25 bg-white/10 px-7 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-cream backdrop-blur-md transition-colors duration-500 ease-cinema hover:border-millet-mint hover:text-millet-mint"
           >
             {scene.cta.secondary}
-          </a>
+          </Link>
         </div>
       )}
     </motion.div>

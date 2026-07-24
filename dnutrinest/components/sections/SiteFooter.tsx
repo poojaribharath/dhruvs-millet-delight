@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import {
   BRAND,
   FOOTER_COLUMNS,
@@ -46,9 +47,9 @@ export default function SiteFooter() {
         {/* Columns */}
         <div className="grid gap-10 py-16 md:grid-cols-2 lg:grid-cols-[1.6fr_repeat(4,1fr)]">
           <div className="max-w-xs">
-            <div className="flex items-center gap-2 text-lg font-bold text-white">
+            <Link href="/" className="flex items-center gap-2 text-lg font-bold text-white transition-colors hover:text-millet-mint">
               <Leaf className="h-5 w-5 text-millet-mint" /> {BRAND.name}
-            </div>
+            </Link>
             <p className="mt-4 text-sm leading-relaxed text-white/65">{FOOTER_BLURB}</p>
             <div className="mt-5 flex gap-3">
               {[Facebook, Instagram, Twitter].map((Icon, i) => (
@@ -69,10 +70,10 @@ export default function SiteFooter() {
               <h4 className="text-sm font-semibold text-white">{col.title}</h4>
               <ul className="mt-4 space-y-3">
                 {col.links.map((l) => (
-                  <li key={l}>
-                    <a href="#" className="text-sm text-white/65 transition-colors hover:text-millet-mint">
-                      {l}
-                    </a>
+                  <li key={l.label}>
+                    <Link href={l.href} className="text-sm text-white/65 transition-colors hover:text-millet-mint">
+                      {l.label}
+                    </Link>
                   </li>
                 ))}
               </ul>

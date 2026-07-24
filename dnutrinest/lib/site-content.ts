@@ -66,19 +66,43 @@ export const PRODUCTS: Product[] = [
 export const FOOTER_COLUMNS = [
   {
     title: "Products",
-    links: ["Protein Power Mix", "Energy Bars", "Crunchy Snacks", "Breakfast Cereals", "Millet Flour"],
+    links: [
+      { label: "Protein Power Mix", href: "/shop" },
+      { label: "Energy Bars", href: "/shop" },
+      { label: "Crunchy Snacks", href: "/savory-snacks" },
+      { label: "Laddoos & Sweets", href: "/laddoos" },
+      { label: "Millet Flour", href: "/shop" },
+    ],
   },
   {
     title: "Company",
-    links: ["About Us", "Our Story", "Careers", "Press", "Sustainability"],
+    links: [
+      { label: "About Us", href: "/about" },
+      { label: "Our Story", href: "/about" },
+      { label: "Careers", href: "/about" },
+      { label: "Press", href: "/about" },
+      { label: "Sustainability", href: "/about" },
+    ],
   },
   {
     title: "Support",
-    links: ["FAQ", "Shipping Info", "Returns", "Contact Us", "Track Order"],
+    links: [
+      { label: "FAQ", href: "/about" },
+      { label: "Shipping Info", href: "/about" },
+      { label: "Returns", href: "/about" },
+      { label: "Contact Us", href: "/#contact" },
+      { label: "Track Order", href: "/shop" },
+    ],
   },
   {
     title: "Wellness",
-    links: ["Nutritional Guide", "Health Benefits", "Recipes", "Wellness Blog", "Expert Tips"],
+    links: [
+      { label: "Nutritional Guide", href: "/#why" },
+      { label: "Health Benefits", href: "/#why" },
+      { label: "Recipes", href: "/" },
+      { label: "Wellness Blog", href: "/" },
+      { label: "Expert Tips", href: "/" },
+    ],
   },
 ];
 
