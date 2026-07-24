@@ -51,6 +51,12 @@ export const Facebook = (p: SVGProps<SVGSVGElement>) => (
 export const Instagram = (p: SVGProps<SVGSVGElement>) => (
   <svg {...base(p)}><rect x="4" y="4" width="16" height="16" rx="5" /><circle cx="12" cy="12" r="3.5" /><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none" /></svg>
 );
+export const Cart = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base(p)}><path d="M6 6h15l-1.5 9h-12L5 3H2" /><circle cx="9" cy="20" r="1.4" /><circle cx="18" cy="20" r="1.4" /></svg>
+);
+export const Eye = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base(p)}><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z" /><circle cx="12" cy="12" r="3" /></svg>
+);
 export const Twitter = (p: SVGProps<SVGSVGElement>) => (
   <svg {...base(p)}><path d="M21 6c-.7.3-1.4.5-2.2.6.8-.5 1.4-1.2 1.7-2.1-.8.5-1.6.8-2.5 1a3.8 3.8 0 0 0-6.5 3.5A10.8 10.8 0 0 1 4 4.5a3.8 3.8 0 0 0 1.2 5.1c-.6 0-1.2-.2-1.7-.5a3.8 3.8 0 0 0 3 3.7c-.5.2-1.1.2-1.7.1a3.8 3.8 0 0 0 3.6 2.6A7.7 7.7 0 0 1 3 17a10.8 10.8 0 0 0 17-9.2c.7-.5 1.4-1.2 2-1.8Z" /></svg>
 );
