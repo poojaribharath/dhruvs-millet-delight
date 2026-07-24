@@ -21,7 +21,7 @@ export default function ShopPage() {
           <h1 className="text-[clamp(2rem,5vw,2.75rem)] font-bold tracking-[-0.03em] text-millet-fg">
             All Products
           </h1>
-          <p className="mt-2 text-[15px] text-millet-primary/75">
+          <p className="mt-2 text-[15px] text-millet-fg/75">
             Discover our complete range of healthy millet-based snacks
           </p>
         </header>

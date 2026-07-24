@@ -20,18 +20,20 @@ const config: Config = {
           jaggery: "#B97A32",
         },
         cream: "#F6F0E8",
-        // Millet green design system (Dhruv's Millet Delight / Figma)
+        // Millet warm design system — logo-derived (60-30-10)
         millet: {
-          fg: "#186839",
-          primary: "#1b7a43",
-          glow: "#2fd072",
-          mint: "#a8eac7",
-          soft: "#c3efd7",
-          turmeric: "#f6e086",
-          jaggery: "#b97a32",
-          bg: "#f9fafb",
-          card: "#eef7f5",
-          border: "#c3eed7",
+          fg: "#5A3305", // chocolate brown — headers, body text, structure
+          primary: "#7B9044", // nature green — CTAs, links, key icons (10% accent)
+          glow: "#8CA451",
+          gold: "#EAA64A", // golden grain — banners, secondary, badges
+          straw: "#D6B579", // warm straw — borders, dividers, sub-headers
+          mint: "#EAA64A", // legacy alias -> golden (on-dark accents)
+          turmeric: "#EAA64A", // legacy alias -> golden grain
+          soft: "#EEDFBC", // light straw — pill / chip backgrounds
+          jaggery: "#B97A32",
+          bg: "#FAF8F4", // soft off-white — dominant backdrop
+          card: "#F4EDDD", // warm cream — cards, chips
+          border: "#E6D6B0", // straw border
         },
       },
       fontFamily: {

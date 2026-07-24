@@ -17,7 +17,7 @@ export default function SavorySnacksPage() {
         <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Savory Snacks" }]} />
 
         {/* Hero banner */}
-        <div className="mt-6 overflow-hidden rounded-3xl bg-gradient-to-br from-millet-fg to-millet-primary px-8 py-14 text-center text-white sm:px-14">
+        <div className="mt-6 overflow-hidden rounded-3xl bg-gradient-to-br from-[#5A3305] to-[#8a5620] px-8 py-14 text-center text-white sm:px-14">
           <div className="flex justify-center">
             <Pill tone="light">Guilt-Free Crunch</Pill>
           </div>

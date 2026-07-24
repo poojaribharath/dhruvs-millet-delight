@@ -68,8 +68,8 @@ export default function HeroSequence({
 
     const render = (p: number) => {
       if (cssW === 0 || cssH === 0) return;
-      // Base fill so letterboxing melts into the page backdrop (deep green theme).
-      ctx.fillStyle = "#0a2417";
+      // Base fill so letterboxing melts into the page backdrop (deep chocolate).
+      ctx.fillStyle = "#201305";
       ctx.fillRect(0, 0, cssW, cssH);
 
       if (loader.placeholder) {

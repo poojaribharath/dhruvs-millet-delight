@@ -28,9 +28,9 @@ export default function AboutPage() {
               <br />
               <span className="text-millet-primary">{ABOUT.hero.titleBottom}</span>
             </h1>
-            <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-millet-primary/80">{ABOUT.hero.body}</p>
+            <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-millet-fg/80">{ABOUT.hero.body}</p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <Button variant="turmeric" href="#team">Meet the Team</Button>
+              <Button variant="primary" href="#team">Meet the Team</Button>
               <Button variant="outline" href="/shop">Explore Products</Button>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function AboutPage() {
               </span>
               <div>
                 <div className="text-xl font-bold text-millet-fg">{ABOUT.hero.stat.value}</div>
-                <div className="text-xs text-millet-primary/70">{ABOUT.hero.stat.label}</div>
+                <div className="text-xs text-millet-fg/70">{ABOUT.hero.stat.label}</div>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 <b.icon className="h-6 w-6" />
               </span>
               <h3 className="mt-5 text-xl font-bold text-millet-fg">{b.title}</h3>
-              <p className="mt-3 text-[15px] leading-relaxed text-millet-primary/75">{b.body}</p>
+              <p className="mt-3 text-[15px] leading-relaxed text-millet-fg/75">{b.body}</p>
             </div>
           ))}
         </section>
@@ -74,7 +74,7 @@ export default function AboutPage() {
                     <Icon className="h-6 w-6" />
                   </span>
                   <h3 className="mt-5 text-base font-bold text-millet-fg">{v.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-millet-primary/70">{v.body}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-millet-fg/70">{v.body}</p>
                 </div>
               );
             })}
@@ -93,7 +93,7 @@ export default function AboutPage() {
                 <div className="mt-5 rounded-3xl border border-millet-border bg-white p-6 shadow-[0_14px_44px_-24px_rgba(40,175,96,0.3)]">
                   <div className="text-2xl font-bold text-millet-primary">{m.year}</div>
                   <h3 className="mt-2 text-base font-bold text-millet-fg">{m.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-millet-primary/70">{m.body}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-millet-fg/70">{m.body}</p>
                 </div>
               </div>
             ))}
@@ -110,7 +110,7 @@ export default function AboutPage() {
                   {t.initials}
                 </span>
                 <h3 className="mt-5 text-base font-bold text-millet-fg">{t.name}</h3>
-                <p className="mt-1 text-sm text-millet-primary/70">{t.role}</p>
+                <p className="mt-1 text-sm text-millet-fg/70">{t.role}</p>
               </div>
             ))}
           </div>
@@ -119,11 +119,11 @@ export default function AboutPage() {
 
       {/* CTA */}
       <section className="px-5 pb-20 lg:px-10">
-        <div className="mx-auto max-w-6xl overflow-hidden rounded-[2rem] bg-gradient-to-br from-millet-fg to-millet-primary px-8 py-16 text-center text-white sm:px-14">
+        <div className="mx-auto max-w-6xl overflow-hidden rounded-[2rem] bg-gradient-to-br from-[#5A3305] to-[#8a5620] px-8 py-16 text-center text-white sm:px-14">
           <h2 className="text-[clamp(1.8rem,5vw,2.5rem)] font-bold tracking-[-0.03em]">{ABOUT.cta.title}</h2>
           <p className="mx-auto mt-4 max-w-lg text-[15px] text-white/80">{ABOUT.cta.body}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Button variant="turmeric" href="/shop">Shop Collection</Button>
+            <Button variant="primary" href="/shop">Shop Collection</Button>
             <Button variant="glass" href="/">Back to Home</Button>
           </div>
         </div>

@@ -5,8 +5,8 @@ import { MILLET_BENEFITS, NUTRITION } from "@/lib/site-content";
 import { Heart, Shield, Bolt, Brain, Sprout, Award } from "@/components/icons";
 
 const ICONS = [Heart, Shield, Bolt, Brain, Sprout, Award];
-const ICON_TINT = ["#e0574e", "#1b7a43", "#c99a1e", "#1b7a43", "#1b7a43", "#1b7a43"];
-const STAT_TINT = ["#186839", "#2c9256", "#63b98c", "#c99a1e"];
+const ICON_TINT = ["#c0533f", "#7B9044", "#EAA64A", "#7B9044", "#7B9044", "#B97A32"];
+const STAT_TINT = ["#5A3305", "#7B9044", "#B97A32", "#EAA64A"];
 
 const reveal = {
   hidden: { opacity: 0, y: 26 },
@@ -22,7 +22,7 @@ export default function WhyMillet() {
     <section
       id="why"
       className="px-5 py-24 lg:px-10"
-      style={{ background: "linear-gradient(180deg,#c3efd7 0%,#a8eac7 100%)" }}
+      style={{ background: "linear-gradient(180deg,#FBF4E4 0%,#EAD9B0 100%)" }}
     >
       <div className="mx-auto max-w-6xl">
         <header className="mx-auto mb-14 max-w-2xl text-center">
@@ -52,19 +52,19 @@ export default function WhyMillet() {
               >
                 <span
                   className="mb-5 grid h-12 w-12 place-items-center rounded-2xl"
-                  style={{ background: "#e8f7ee" }}
+                  style={{ background: "#F4EDDD" }}
                 >
                   <Icon className="h-6 w-6" style={{ color: ICON_TINT[i] }} />
                 </span>
                 <h3 className="text-lg font-bold text-millet-fg">{b.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-millet-primary/75">{b.body}</p>
+                <p className="mt-2 text-sm leading-relaxed text-millet-fg/75">{b.body}</p>
               </motion.article>
             );
           })}
         </div>
 
         {/* Nutritional Powerhouse — soft glass panel */}
-        <div className="mt-14 overflow-hidden rounded-[2rem] border border-white/60 bg-gradient-to-br from-white/80 via-white/40 to-[#bdedd2]/40 p-10 shadow-[0_20px_60px_-24px_rgba(24,104,57,0.4)] backdrop-blur-md sm:p-14">
+        <div className="mt-14 overflow-hidden rounded-[2rem] border border-white/60 bg-gradient-to-br from-white/80 via-white/40 to-[#EAD9B0]/40 p-10 shadow-[0_20px_60px_-24px_rgba(24,104,57,0.4)] backdrop-blur-md sm:p-14">
           <h3 className="text-center text-[clamp(1.6rem,4vw,2.25rem)] font-bold tracking-[-0.02em] text-millet-fg">
             Nutritional Powerhouse
           </h3>

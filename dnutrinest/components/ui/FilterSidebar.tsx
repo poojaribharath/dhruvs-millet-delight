@@ -21,7 +21,7 @@ export default function FilterSidebar() {
           className="w-full accent-millet-primary"
           aria-label="Price range"
         />
-        <div className="mt-1 flex justify-between text-xs text-millet-primary/60">
+        <div className="mt-1 flex justify-between text-xs text-millet-fg/60">
           <span>₹{SHOP_FILTERS.priceMin}</span>
           <span>₹{SHOP_FILTERS.priceMax}</span>
         </div>
@@ -53,7 +53,7 @@ function FilterGroup({ title, children }: { title: string; children: React.React
 
 function Check({ label, defaultChecked }: { label: string; defaultChecked?: boolean }) {
   return (
-    <label className="flex cursor-pointer items-center gap-2.5 text-sm text-millet-primary/85">
+    <label className="flex cursor-pointer items-center gap-2.5 text-sm text-millet-fg/85">
       <input
         type="checkbox"
         defaultChecked={defaultChecked}

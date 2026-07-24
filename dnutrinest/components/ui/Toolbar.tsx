@@ -4,7 +4,7 @@ import { SORT_OPTIONS } from "@/lib/pages-content";
 export function Toolbar({ count }: { count: number }) {
   return (
     <div className="flex flex-wrap items-center justify-between gap-4">
-      <span className="text-sm text-millet-primary/70">Showing {count} products</span>
+      <span className="text-sm text-millet-fg/70">Showing {count} products</span>
       <div className="flex items-center gap-3">
         <select
           aria-label="Sort products"
@@ -19,7 +19,7 @@ export function Toolbar({ count }: { count: number }) {
           <button aria-label="Grid view" className="bg-millet-card px-2.5 py-2 text-millet-fg">
             <GridIcon />
           </button>
-          <button aria-label="List view" className="border-l border-millet-border bg-white px-2.5 py-2 text-millet-primary/60">
+          <button aria-label="List view" className="border-l border-millet-border bg-white px-2.5 py-2 text-millet-fg/60">
             <ListIcon />
           </button>
         </div>
@@ -31,7 +31,7 @@ export function Toolbar({ count }: { count: number }) {
 export function Pagination({ pages = 3 }: { pages?: number }) {
   return (
     <nav aria-label="Pagination" className="mt-12 flex items-center justify-center gap-2">
-      <button className="grid h-9 w-9 place-items-center rounded-lg border border-millet-border bg-white text-millet-primary/60" aria-label="Previous">
+      <button className="grid h-9 w-9 place-items-center rounded-lg border border-millet-border bg-white text-millet-fg/60" aria-label="Previous">
         ‹
       </button>
       {Array.from({ length: pages }, (_, i) => i + 1).map((p) => (
@@ -44,7 +44,7 @@ export function Pagination({ pages = 3 }: { pages?: number }) {
           {p}
         </button>
       ))}
-      <button className="grid h-9 w-9 place-items-center rounded-lg border border-millet-border bg-white text-millet-primary/60" aria-label="Next">
+      <button className="grid h-9 w-9 place-items-center rounded-lg border border-millet-border bg-white text-millet-fg/60" aria-label="Next">
         ›
       </button>
     </nav>

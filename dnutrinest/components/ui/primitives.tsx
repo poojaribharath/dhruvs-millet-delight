@@ -89,7 +89,7 @@ export function StarRating({ rating, reviews }: { rating: number; reviews: numbe
         ))}
       </span>
       <span className="font-semibold text-millet-fg">{rating.toFixed(1)}</span>
-      <span className="text-millet-primary/60">({reviews} reviews)</span>
+      <span className="text-millet-fg/60">({reviews} reviews)</span>
     </div>
   );
 }
@@ -110,7 +110,7 @@ export function SectionHeader({
 }) {
   const wrap = align === "center" ? "mx-auto max-w-2xl text-center" : "max-w-2xl text-left";
   const titleColor = tone === "light" ? "text-white" : "text-millet-fg";
-  const subColor = tone === "light" ? "text-white/70" : "text-millet-primary/80";
+  const subColor = tone === "light" ? "text-white/70" : "text-millet-fg/80";
   return (
     <header className={`mb-14 ${wrap}`}>
       {pill && (
@@ -131,7 +131,7 @@ export function SectionHeader({
 /* ------------------------------------------------------------- Breadcrumb */
 export function Breadcrumb({ items }: { items: { label: string; href?: string }[] }) {
   return (
-    <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-millet-primary/60">
+    <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-millet-fg/60">
       {items.map((it, i) => (
         <span key={it.label} className="flex items-center gap-2">
           {it.href ? (

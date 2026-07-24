@@ -16,7 +16,7 @@ export default function NotFound() {
           </span>
           <div className="mt-6 text-6xl font-bold tracking-[-0.04em] text-millet-fg">{NOT_FOUND.code}</div>
           <h1 className="mt-4 text-2xl font-bold text-millet-fg">{NOT_FOUND.title}</h1>
-          <p className="mx-auto mt-3 max-w-md text-[15px] text-millet-primary/75">{NOT_FOUND.body}</p>
+          <p className="mx-auto mt-3 max-w-md text-[15px] text-millet-fg/75">{NOT_FOUND.body}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Button variant="primary" href="/">Back to Home</Button>
             <Button variant="outline" href="/shop">Browse Products</Button>
