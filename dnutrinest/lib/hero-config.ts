@@ -7,7 +7,7 @@
  * renders procedural placeholder frames so the scrub is fully demonstrable.
  */
 
-export const HERO_FRAME_COUNT = 239;
+export const HERO_FRAME_COUNT = 240;
 
 /** Total scroll length of the pinned hero, in viewport heights. */
 export const HERO_SCROLL_VH = 480;

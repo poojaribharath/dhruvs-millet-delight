@@ -25,3 +25,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# source video for frame extraction (not committed)
+public/_ref.mp4
+_*.mjs

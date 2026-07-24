@@ -50,7 +50,7 @@ function Caption({
   return (
     <motion.div
       style={{ opacity, y }}
-      className="absolute max-w-3xl text-center"
+      className="absolute max-w-3xl text-center [text-shadow:0_1px_30px_rgba(10,6,4,0.6),0_1px_6px_rgba(10,6,4,0.5)]"
     >
       {scene.eyebrow && (
         <p className="mb-5 text-[0.68rem] font-medium uppercase tracking-luxe text-gold-matte/80">
