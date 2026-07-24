@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cocoa-900: #1a120d;
+  --cocoa-800: #241710;
+  --cocoa-700: #2b1a13;
+  --gold-matte: #c9a05c;
+  --gold-jaggery: #b97a32;
+  --cream: #f6f0e8;
+}
+
+html {
+  /* Lenis drives scrolling; disable native smooth-scroll to avoid conflicts */
+  scroll-behavior: auto;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--cocoa-900);
+  color: var(--cream);
+  font-feature-settings: "kern", "liga", "calt";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* Radial studio backdrop that lets every hero frame melt into darkness */
+.studio-backdrop {
+  background:
+    radial-gradient(120% 90% at 50% 38%, #2b1a13 0%, #1f150f 42%, #1a120d 72%, #120b07 100%);
+}
+
+/* Thin luxe hairline */
+.hairline-gold {
+  border-color: rgba(201, 160, 92, 0.28);
+}
+
+::selection {
+  background: rgba(201, 160, 92, 0.28);
+  color: var(--cream);
+}
+
+/* Respect reduced motion — collapse the cinematic scrub to a calm static view */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
