@@ -20,6 +20,19 @@ const config: Config = {
           jaggery: "#B97A32",
         },
         cream: "#F6F0E8",
+        // Millet green design system (Dhruv's Millet Delight / Figma)
+        millet: {
+          fg: "#186839",
+          primary: "#1b7a43",
+          glow: "#2fd072",
+          mint: "#a8eac7",
+          soft: "#c3efd7",
+          turmeric: "#f6e086",
+          jaggery: "#b97a32",
+          bg: "#f9fafb",
+          card: "#eef7f5",
+          border: "#c3eed7",
+        },
       },
       fontFamily: {
         // Display serif (Canela / Fraunces / Cormorant feel)

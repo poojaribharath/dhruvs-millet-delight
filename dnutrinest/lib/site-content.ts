@@ -36,7 +36,7 @@ export const PRODUCTS: Product[] = [
     description: "High-protein millet blend with nuts and seeds",
     tags: ["25g Protein", "Gluten Free", "No Sugar Added"],
     rating: 4.8,
-    reviews: 198,
+    reviews: 156,
     price: 299,
     compareAt: 399,
     badge: "Bestseller",
@@ -58,10 +58,34 @@ export const PRODUCTS: Product[] = [
     rating: 4.7,
     reviews: 89,
     price: 199,
-    compareAt: 250,
+    compareAt: 259,
     badge: "Popular",
   },
 ];
+
+export const FOOTER_COLUMNS = [
+  {
+    title: "Products",
+    links: ["Protein Power Mix", "Energy Bars", "Crunchy Snacks", "Breakfast Cereals", "Millet Flour"],
+  },
+  {
+    title: "Company",
+    links: ["About Us", "Our Story", "Careers", "Press", "Sustainability"],
+  },
+  {
+    title: "Support",
+    links: ["FAQ", "Shipping Info", "Returns", "Contact Us", "Track Order"],
+  },
+  {
+    title: "Wellness",
+    links: ["Nutritional Guide", "Health Benefits", "Recipes", "Wellness Blog", "Expert Tips"],
+  },
+];
+
+export const FOOTER_BLURB =
+  "Committed to bringing you the finest millet-based products that combine ancient wisdom with modern nutrition science for a healthier lifestyle.";
+
+export const LEGAL_LINKS = ["Privacy Policy", "Terms of Service", "Cookie Policy"];
 
 export const MILLET_BENEFITS = [
   {

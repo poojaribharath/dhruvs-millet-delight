@@ -25,25 +25,27 @@ export default function Nav() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ease-cinema ${
         scrolled
-          ? "border-[#c3efd7] bg-[#fbf9f3]/92 shadow-[0_4px_20px_-4px_rgba(40,175,96,0.15)] backdrop-blur-md"
-          : "border-transparent bg-[#fbf9f3]/70 backdrop-blur-sm"
+          ? "border-[#c3efd7] bg-[rgba(251,249,243,0.95)] shadow-[0_4px_20px_-4px_rgba(40,175,96,0.15)] backdrop-blur-md"
+          : "border-transparent bg-[rgba(251,249,243,0.85)] backdrop-blur-md"
       } border-b`}
     >
       <nav className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-5 lg:px-10">
-        {/* Horizontal logo lockup — mark + name + subtext + lines, one unit */}
-        <a href="#top" className="flex items-center gap-3" aria-label="D'NutriNest — home">
+        {/* Horizontal logo lockup — mark + name + subtext + lines, one centered unit */}
+        <a href="#top" className="flex items-center" aria-label="D'NutriNest — home">
+          {/* Full lockup on tablet/desktop, pre-composed so mark + wordmark are middle-aligned */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo-lockup.png"
+            alt="D'NutriNest — Nest of wholesome millets"
+            className="hidden h-12 w-auto sm:block"
+            draggable={false}
+          />
+          {/* Mark only on small screens */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/logo-mark.png"
             alt="D'NutriNest"
-            className="h-11 w-auto md:h-12"
-            draggable={false}
-          />
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/logo-wordmark.png"
-            alt="D'NutriNest — Nest of wholesome millets"
-            className="hidden h-9 w-auto sm:block md:h-10"
+            className="h-11 w-auto sm:hidden"
             draggable={false}
           />
         </a>
