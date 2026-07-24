@@ -68,8 +68,8 @@ export default function HeroSequence({
 
     const render = (p: number) => {
       if (cssW === 0 || cssH === 0) return;
-      // Base fill so letterboxing melts into the page backdrop.
-      ctx.fillStyle = "#1A120D";
+      // Base fill so letterboxing melts into the page backdrop (deep green theme).
+      ctx.fillStyle = "#0a2417";
       ctx.fillRect(0, 0, cssW, cssH);
 
       if (loader.placeholder) {
@@ -146,7 +146,7 @@ export default function HeroSequence({
           </span>
           <div className="h-px w-40 overflow-hidden bg-cream/10">
             <div
-              className="h-full bg-gold-matte/70 transition-[width] duration-500 ease-cinema"
+              className="h-full bg-millet-mint/80 transition-[width] duration-500 ease-cinema"
               style={{ width: `${Math.max(loadPct, booted ? 100 : 4)}%` }}
             />
           </div>

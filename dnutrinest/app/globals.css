@@ -42,10 +42,10 @@ body {
   overflow-x: hidden;
 }
 
-/* Radial studio backdrop that lets every hero frame melt into darkness */
+/* Radial studio backdrop — deep forest green so the hero reads on-theme */
 .studio-backdrop {
   background:
-    radial-gradient(120% 90% at 50% 38%, #2b1a13 0%, #1f150f 42%, #1a120d 72%, #120b07 100%);
+    radial-gradient(120% 90% at 50% 38%, #14432b 0%, #0e3320 42%, #0a2417 72%, #05130c 100%);
 }
 
 /* Thin luxe hairline */

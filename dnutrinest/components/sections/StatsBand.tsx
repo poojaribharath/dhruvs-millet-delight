@@ -16,7 +16,7 @@ const BADGES = [
  */
 export default function StatsBand() {
   return (
-    <section id="highlights" className="relative overflow-hidden bg-cocoa-900 px-5 py-20 lg:px-10">
+    <section id="highlights" className="relative overflow-hidden bg-[#0a2417] px-5 py-20 lg:px-10">
       <div className="pointer-events-none absolute inset-0 studio-backdrop opacity-80" />
       <div className="relative mx-auto max-w-4xl text-center">
         {/* Glassmorphism badges */}
@@ -46,7 +46,7 @@ export default function StatsBand() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 + i * 0.08 }}
             >
-              <div className="font-display text-4xl font-light text-millet-mint sm:text-5xl">
+              <div className="font-sans text-4xl font-bold tracking-[-0.02em] text-millet-mint sm:text-5xl">
                 {s.value}
               </div>
               <div className="mt-2 text-[0.62rem] uppercase tracking-luxe text-cream/45">

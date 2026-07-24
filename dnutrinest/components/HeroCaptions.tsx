@@ -53,23 +53,23 @@ function Caption({
       className="absolute max-w-3xl text-center [text-shadow:0_1px_30px_rgba(10,6,4,0.6),0_1px_6px_rgba(10,6,4,0.5)]"
     >
       {scene.eyebrow && (
-        <p className="mb-5 text-[0.68rem] font-medium uppercase tracking-luxe text-gold-matte/80">
+        <p className="mb-5 text-[0.68rem] font-semibold uppercase tracking-luxe text-millet-mint/90">
           {scene.eyebrow}
         </p>
       )}
       {scene.headline && (
         <h2
-          className={`font-display font-light leading-[1.02] text-cream ${
+          className={`font-sans font-bold tracking-[-0.03em] leading-[1.04] text-cream ${
             scene.index === "01"
-              ? "text-[clamp(3rem,9vw,7.5rem)]"
-              : "text-[clamp(2.2rem,6vw,5rem)]"
+              ? "text-[clamp(2.8rem,8.5vw,6.5rem)]"
+              : "text-[clamp(2.2rem,6vw,4.6rem)]"
           }`}
         >
           {scene.headline}
         </h2>
       )}
       {scene.subheadline && (
-        <p className="mx-auto mt-6 max-w-xl font-display text-[clamp(1.05rem,2vw,1.5rem)] font-light italic text-cream/70">
+        <p className="mx-auto mt-6 max-w-xl font-sans text-[clamp(1rem,1.8vw,1.35rem)] font-normal text-cream/75">
           {scene.subheadline}
         </p>
       )}
@@ -78,13 +78,13 @@ function Caption({
         <div className="pointer-events-auto mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
           <a
             href="#collection"
-            className="rounded-full bg-cream px-8 py-3 text-sm font-medium uppercase tracking-[0.18em] text-cocoa-900 transition-colors duration-700 ease-cinema hover:bg-gold-matte"
+            className="rounded-full bg-millet-primary px-8 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white shadow-[0_8px_30px_-8px_rgba(47,208,114,0.5)] transition-colors duration-500 ease-cinema hover:bg-millet-fg"
           >
             {scene.cta.primary}
           </a>
           <a
-            href="#story"
-            className="text-sm font-medium uppercase tracking-[0.18em] text-cream/75 underline-offset-8 transition-colors duration-700 ease-cinema hover:text-gold-matte hover:underline"
+            href="#collection"
+            className="rounded-full border border-white/25 bg-white/10 px-7 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-cream backdrop-blur-md transition-colors duration-500 ease-cinema hover:border-millet-mint hover:text-millet-mint"
           >
             {scene.cta.secondary}
           </a>
