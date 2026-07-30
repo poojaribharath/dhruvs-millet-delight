@@ -19,10 +19,10 @@ All colors MUST be HSL.
     --popover-foreground: 145 63% 25%;
 
     /* Fresh Green as Primary */
-    --primary: 145 63% 42%;
+    --primary: 145 63% 30%;
     --primary-foreground: 210 17% 98%;
-    --primary-hover: 145 63% 35%;
-    --primary-glow: 145 63% 50%;
+    --primary-hover: 145 63% 24%;
+    --primary-glow: 145 63% 40%;
 
     /* Sage Green as Secondary */
     --secondary: 82 27% 62%;
@@ -53,12 +53,12 @@ All colors MUST be HSL.
 
     --border: 148 57% 85%;
     --input: 148 57% 90%;
-    --ring: 145 63% 42%;
+    --ring: 145 63% 30%;
 
     --radius: 0.75rem;
 
     /* Design System Tokens */
-    --success: 145 63% 42%;
+    --success: 145 63% 30%;
     --warning: 48 86% 59%;
     --info: 148 57% 69%;
 
