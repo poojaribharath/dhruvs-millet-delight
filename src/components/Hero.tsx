@@ -12,14 +12,15 @@ const Hero = () => {
           alt="Fresh millet grains and healthy snacks"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-foreground/40"></div>
+        <div className="absolute inset-0 bg-foreground/75"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-foreground/60 via-foreground/50 to-foreground/80"></div>
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center text-primary-foreground">
           {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-6 py-2 mb-8">
+          <div className="inline-flex items-center space-x-2 bg-foreground/70 backdrop-blur-sm border border-primary-foreground/30 rounded-full px-6 py-2 mb-8">
             <Star className="w-5 h-5 text-turmeric" />
             <span className="text-sm font-medium">100% Natural & Organic</span>
             <Star className="w-5 h-5 text-turmeric" />
@@ -28,29 +29,29 @@ const Hero = () => {
           {/* Main heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold mb-6 leading-tight">
             Nourish Your Body with
-            <span className="block gradient-fresh bg-clip-text text-transparent">
+            <span className="block text-turmeric">
               Dhruv's Millet Delight
             </span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-primary-foreground mb-8 max-w-3xl mx-auto">
             Discover the power of ancient grains with our premium collection of 
             healthy, delicious millet-based snacks that fuel your wellness journey.
           </p>
 
           {/* Features */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-            <div className="flex items-center justify-center space-x-3 bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-4">
-              <Shield className="w-6 h-6 text-accent" />
+            <div className="flex items-center justify-center space-x-3 bg-foreground/70 backdrop-blur-sm border border-primary-foreground/25 rounded-lg p-4">
+              <Shield className="w-6 h-6 text-turmeric" aria-hidden="true" />
               <span className="font-medium">100% Natural</span>
             </div>
-            <div className="flex items-center justify-center space-x-3 bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-4">
-              <Zap className="w-6 h-6 text-turmeric" />
+            <div className="flex items-center justify-center space-x-3 bg-foreground/70 backdrop-blur-sm border border-primary-foreground/25 rounded-lg p-4">
+              <Zap className="w-6 h-6 text-turmeric" aria-hidden="true" />
               <span className="font-medium">High Protein</span>
             </div>
-            <div className="flex items-center justify-center space-x-3 bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-4">
-              <Star className="w-6 h-6 text-secondary" />
+            <div className="flex items-center justify-center space-x-3 bg-foreground/70 backdrop-blur-sm border border-primary-foreground/25 rounded-lg p-4">
+              <Star className="w-6 h-6 text-turmeric" aria-hidden="true" />
               <span className="font-medium">Gluten Free</span>
             </div>
           </div>
@@ -67,22 +68,22 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-primary-foreground/20">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-primary-foreground/30">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-turmeric mb-2">50K+</div>
-              <div className="text-primary-foreground/80">Happy Customers</div>
+              <div className="text-primary-foreground">Happy Customers</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">15+</div>
-              <div className="text-primary-foreground/80">Product Varieties</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary-foreground mb-2">15+</div>
+              <div className="text-primary-foreground">Product Varieties</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-secondary mb-2">5⭐</div>
-              <div className="text-primary-foreground/80">Average Rating</div>
+              <div className="text-3xl md:text-4xl font-bold text-turmeric mb-2">5★</div>
+              <div className="text-primary-foreground">Average Rating</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">100%</div>
-              <div className="text-primary-foreground/80">Organic</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary-foreground mb-2">100%</div>
+              <div className="text-primary-foreground">Organic</div>
             </div>
           </div>
         </div>
