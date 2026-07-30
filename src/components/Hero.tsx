@@ -43,7 +43,7 @@ const Hero = () => {
           {/* Features */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             <div className="flex items-center justify-center space-x-3 bg-foreground/70 backdrop-blur-sm border border-primary-foreground/25 rounded-lg p-4">
-              <Shield className="w-6 h-6 text-mint" aria-hidden="true" />
+              <Shield className="w-6 h-6 text-turmeric" aria-hidden="true" />
               <span className="font-medium">100% Natural</span>
             </div>
             <div className="flex items-center justify-center space-x-3 bg-foreground/70 backdrop-blur-sm border border-primary-foreground/25 rounded-lg p-4">
@@ -51,7 +51,7 @@ const Hero = () => {
               <span className="font-medium">High Protein</span>
             </div>
             <div className="flex items-center justify-center space-x-3 bg-foreground/70 backdrop-blur-sm border border-primary-foreground/25 rounded-lg p-4">
-              <Star className="w-6 h-6 text-mint" aria-hidden="true" />
+              <Star className="w-6 h-6 text-turmeric" aria-hidden="true" />
               <span className="font-medium">Gluten Free</span>
             </div>
           </div>
