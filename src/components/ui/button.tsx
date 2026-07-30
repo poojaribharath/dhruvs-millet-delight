@@ -17,7 +17,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         turmeric: "bg-turmeric text-turmeric-foreground hover:bg-turmeric-hover shadow-soft hover:shadow-glow transition-bounce",
         accent: "bg-accent text-accent-foreground hover:bg-accent-hover shadow-soft hover:shadow-medium",
-        hero: "gradient-hero text-white font-semibold hover:scale-105 shadow-medium hover:shadow-glow transition-bounce"
+        hero: "bg-turmeric text-turmeric-foreground font-semibold hover:bg-turmeric-hover hover:scale-105 shadow-medium hover:shadow-glow transition-bounce"
       },
       size: {
         default: "h-11 px-6 py-2.5",
