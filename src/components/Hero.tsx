@@ -68,22 +68,22 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-primary-foreground/20">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-primary-foreground/30">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-turmeric mb-2">50K+</div>
-              <div className="text-primary-foreground/80">Happy Customers</div>
+              <div className="text-primary-foreground">Happy Customers</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">15+</div>
-              <div className="text-primary-foreground/80">Product Varieties</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary-foreground mb-2">15+</div>
+              <div className="text-primary-foreground">Product Varieties</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-secondary mb-2">5⭐</div>
-              <div className="text-primary-foreground/80">Average Rating</div>
+              <div className="text-3xl md:text-4xl font-bold text-turmeric mb-2">5★</div>
+              <div className="text-primary-foreground">Average Rating</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">100%</div>
-              <div className="text-primary-foreground/80">Organic</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary-foreground mb-2">100%</div>
+              <div className="text-primary-foreground">Organic</div>
             </div>
           </div>
         </div>
