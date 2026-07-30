@@ -67,7 +67,7 @@ const About = () => {
                 </Badge>
                 <h1 className="text-4xl md:text-6xl font-heading font-bold text-foreground leading-tight">
                   Nourishing India,
-                  <span className="block gradient-fresh bg-clip-text text-transparent">
+                  <span className="block text-primary">
                     One Millet at a Time
                   </span>
                 </h1>
