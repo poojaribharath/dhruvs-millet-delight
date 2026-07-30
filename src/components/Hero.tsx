@@ -12,7 +12,8 @@ const Hero = () => {
           alt="Fresh millet grains and healthy snacks"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-foreground/40"></div>
+        <div className="absolute inset-0 bg-foreground/75"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-foreground/60 via-foreground/50 to-foreground/80"></div>
       </div>
 
       {/* Content */}
