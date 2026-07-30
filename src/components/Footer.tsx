@@ -47,14 +47,14 @@ const Footer = () => {
             <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4">
               Join Our Wellness Community
             </h3>
-            <p className="text-primary-foreground/80 mb-8">
+            <p className="text-primary-foreground/90 mb-8">
               Get exclusive recipes, health tips, and special offers delivered to your inbox.
             </p>
             <div className="flex flex-col sm:flex-row max-w-md mx-auto space-y-4 sm:space-y-0 sm:space-x-4">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/60 focus:outline-none focus:ring-2 focus:ring-accent"
+                className="flex-1 px-4 py-3 rounded-lg bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/80 focus:outline-none focus:ring-2 focus:ring-accent"
               />
               <Button variant="turmeric" className="shrink-0">
                 Subscribe
@@ -75,7 +75,7 @@ const Footer = () => {
                 Dhruv's Millet Delight
               </div>
             </div>
-            <p className="text-primary-foreground/80 mb-6 leading-relaxed">
+            <p className="text-primary-foreground/90 mb-6 leading-relaxed">
               Committed to bringing you the finest millet-based products that combine 
               ancient wisdom with modern nutrition science for a healthier lifestyle.
             </p>
@@ -98,7 +98,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.products.map((link, index) => (
                 <li key={index}>
-                  <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  <a href="#" className="text-primary-foreground/90 hover:text-accent transition-colors">
                     {link}
                   </a>
                 </li>
@@ -112,7 +112,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.company.map((link, index) => (
                 <li key={index}>
-                  <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  <a href="#" className="text-primary-foreground/90 hover:text-accent transition-colors">
                     {link}
                   </a>
                 </li>
@@ -126,7 +126,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.support.map((link, index) => (
                 <li key={index}>
-                  <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  <a href="#" className="text-primary-foreground/90 hover:text-accent transition-colors">
                     {link}
                   </a>
                 </li>
@@ -140,7 +140,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.health.map((link, index) => (
                 <li key={index}>
-                  <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  <a href="#" className="text-primary-foreground/90 hover:text-accent transition-colors">
                     {link}
                   </a>
                 </li>
@@ -158,7 +158,7 @@ const Footer = () => {
               </div>
               <div>
                 <div className="font-medium">Email Us</div>
-                <div className="text-primary-foreground/80">info@dhruvsdelights.com</div>
+                <div className="text-primary-foreground/90">info@dhruvsdelights.com</div>
               </div>
             </div>
             <div className="flex items-center space-x-3">
@@ -167,7 +167,7 @@ const Footer = () => {
               </div>
               <div>
                 <div className="font-medium">Call Us</div>
-                <div className="text-primary-foreground/80">+91 98765 43210</div>
+                <div className="text-primary-foreground/90">+91 98765 43210</div>
               </div>
             </div>
             <div className="flex items-center space-x-3">
@@ -176,7 +176,7 @@ const Footer = () => {
               </div>
               <div>
                 <div className="font-medium">Visit Us</div>
-                <div className="text-primary-foreground/80">Mumbai, Maharashtra</div>
+                <div className="text-primary-foreground/90">Mumbai, Maharashtra</div>
               </div>
             </div>
           </div>
@@ -187,17 +187,17 @@ const Footer = () => {
       <div className="border-t border-primary-foreground/10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-            <div className="text-primary-foreground/80 text-sm">
+            <div className="text-primary-foreground/90 text-sm">
               © 2024 Dhruv's Millet Delight. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+              <a href="#" className="text-primary-foreground/90 hover:text-accent transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+              <a href="#" className="text-primary-foreground/90 hover:text-accent transition-colors">
                 Terms of Service
               </a>
-              <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+              <a href="#" className="text-primary-foreground/90 hover:text-accent transition-colors">
                 Cookie Policy
               </a>
             </div>

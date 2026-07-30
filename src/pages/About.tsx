@@ -97,7 +97,7 @@ const About = () => {
                   <Card className="card-fresh">
                     <CardContent className="p-4 flex items-center gap-3">
                       <div className="w-12 h-12 rounded-full bg-turmeric/20 flex items-center justify-center">
-                        <Users className="w-6 h-6 text-turmeric" />
+                        <Users className="w-6 h-6 text-turmeric-ink" />
                       </div>
                       <div>
                         <div className="text-2xl font-bold text-primary">50K+</div>
@@ -134,7 +134,7 @@ const About = () => {
               <Card className="card-fresh border-0">
                 <CardContent className="p-8 space-y-4">
                   <div className="w-12 h-12 rounded-full bg-turmeric/20 flex items-center justify-center">
-                    <Sprout className="w-6 h-6 text-turmeric" />
+                    <Sprout className="w-6 h-6 text-turmeric-ink" />
                   </div>
                   <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground">
                     Our Heritage

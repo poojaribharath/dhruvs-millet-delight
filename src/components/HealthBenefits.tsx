@@ -18,25 +18,25 @@ const HealthBenefits = () => {
       icon: Zap,
       title: "Sustained Energy",
       description: "Complex carbohydrates provide steady energy release without blood sugar spikes.",
-      color: "text-turmeric"
+      color: "text-turmeric-ink"
     },
     {
       icon: Brain,
       title: "Brain Function",
       description: "B-vitamins and omega-3 fatty acids support cognitive function and mental clarity.",
-      color: "text-accent"
+      color: "text-accent-ink"
     },
     {
       icon: Leaf,
       title: "Digestive Health",
       description: "High fiber content promotes healthy digestion and supports gut microbiome balance.",
-      color: "text-secondary"
+      color: "text-secondary-ink"
     },
     {
       icon: Award,
       title: "Weight Management",
       description: "Low glycemic index and high protein content help maintain healthy weight goals.",
-      color: "text-info"
+      color: "text-info-ink"
     }
   ];
 
@@ -98,15 +98,15 @@ const HealthBenefits = () => {
               <div className="text-sm text-muted-foreground">Calories</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">11g</div>
+              <div className="text-3xl md:text-4xl font-bold text-accent-ink mb-2">11g</div>
               <div className="text-sm text-muted-foreground">Protein</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-secondary mb-2">8.5g</div>
+              <div className="text-3xl md:text-4xl font-bold text-secondary-ink mb-2">8.5g</div>
               <div className="text-sm text-muted-foreground">Fiber</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-turmeric mb-2">3mg</div>
+              <div className="text-3xl md:text-4xl font-bold text-turmeric-ink mb-2">3mg</div>
               <div className="text-sm text-muted-foreground">Iron</div>
             </div>
           </div>

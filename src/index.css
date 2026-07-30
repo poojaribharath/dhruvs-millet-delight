@@ -39,8 +39,14 @@ All colors MUST be HSL.
     --turmeric-foreground: 145 63% 25%;
     --turmeric-hover: 48 86% 52%;
 
+    /* Accessible "ink" variants for colored text/icons on light surfaces (WCAG AA) */
+    --turmeric-ink: 38 92% 27%;
+    --accent-ink: 148 72% 24%;
+    --secondary-ink: 82 45% 26%;
+    --info-ink: 190 80% 24%;
+
     --muted: 82 27% 75%;
-    --muted-foreground: 145 63% 35%;
+    --muted-foreground: 145 45% 28%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 17% 98%;
