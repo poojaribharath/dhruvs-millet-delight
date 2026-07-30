@@ -33,17 +33,20 @@ export default {
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))',
-					hover: 'hsl(var(--secondary-hover))'
+					hover: 'hsl(var(--secondary-hover))',
+					ink: 'hsl(var(--secondary-ink))'
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))',
-					hover: 'hsl(var(--accent-hover))'
+					hover: 'hsl(var(--accent-hover))',
+					ink: 'hsl(var(--accent-ink))'
 				},
 				turmeric: {
 					DEFAULT: 'hsl(var(--turmeric))',
 					foreground: 'hsl(var(--turmeric-foreground))',
-					hover: 'hsl(var(--turmeric-hover))'
+					hover: 'hsl(var(--turmeric-hover))',
+					ink: 'hsl(var(--turmeric-ink))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -64,6 +67,7 @@ export default {
 				success: 'hsl(var(--success))',
 				warning: 'hsl(var(--warning))',
 				info: 'hsl(var(--info))',
+				'info-ink': 'hsl(var(--info-ink))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

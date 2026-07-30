@@ -19,10 +19,10 @@ All colors MUST be HSL.
     --popover-foreground: 145 63% 25%;
 
     /* Fresh Green as Primary */
-    --primary: 145 63% 42%;
+    --primary: 145 63% 30%;
     --primary-foreground: 210 17% 98%;
-    --primary-hover: 145 63% 35%;
-    --primary-glow: 145 63% 50%;
+    --primary-hover: 145 63% 24%;
+    --primary-glow: 145 63% 40%;
 
     /* Sage Green as Secondary */
     --secondary: 82 27% 62%;
@@ -39,26 +39,32 @@ All colors MUST be HSL.
     --turmeric-foreground: 145 63% 25%;
     --turmeric-hover: 48 86% 52%;
 
+    /* Accessible "ink" variants for colored text/icons on light surfaces (WCAG AA) */
+    --turmeric-ink: 38 92% 27%;
+    --accent-ink: 148 72% 24%;
+    --secondary-ink: 82 45% 26%;
+    --info-ink: 190 80% 24%;
+
     --muted: 82 27% 75%;
-    --muted-foreground: 145 63% 35%;
+    --muted-foreground: 145 45% 28%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 17% 98%;
 
     --border: 148 57% 85%;
     --input: 148 57% 90%;
-    --ring: 145 63% 42%;
+    --ring: 145 63% 30%;
 
     --radius: 0.75rem;
 
     /* Design System Tokens */
-    --success: 145 63% 42%;
+    --success: 145 63% 30%;
     --warning: 48 86% 59%;
     --info: 148 57% 69%;
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-fresh: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--primary)));
+    --gradient-fresh: linear-gradient(135deg, hsl(var(--primary-glow)), hsl(var(--primary)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--turmeric)) 100%);
     --gradient-card: linear-gradient(145deg, hsl(var(--background)) 0%, hsl(var(--accent) / 0.1) 100%);
 

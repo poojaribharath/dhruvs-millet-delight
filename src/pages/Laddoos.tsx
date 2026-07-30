@@ -144,7 +144,7 @@ const Laddoos = () => {
             <div className="bg-gradient-to-r from-turmeric/10 to-primary/10 border border-turmeric/20 rounded-xl p-6 mb-8">
               <div className="flex items-center space-x-4">
                 <div className="bg-turmeric/20 p-3 rounded-full">
-                  <Gift className="w-6 h-6 text-turmeric" />
+                  <Gift className="w-6 h-6 text-turmeric-ink" />
                 </div>
                 <div className="flex-1">
                   <h3 className="font-heading font-semibold text-foreground mb-1">

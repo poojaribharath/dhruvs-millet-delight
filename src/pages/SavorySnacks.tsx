@@ -240,7 +240,7 @@ const SavorySnacks = () => {
                               key={i}
                               className={`w-4 h-4 ${
                                 i < Math.floor(product.rating)
-                                  ? 'text-turmeric fill-current'
+                                  ? 'text-turmeric-ink fill-current'
                                   : 'text-muted-foreground'
                               }`}
                             />

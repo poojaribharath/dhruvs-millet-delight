@@ -92,7 +92,7 @@ const ProductCard = ({ product, showQuickView = false }: ProductCardProps) => {
                 key={i}
                 className={`w-3 h-3 ${
                   i < Math.floor(product.rating)
-                    ? 'text-turmeric fill-current'
+                    ? 'text-turmeric-ink fill-current'
                     : 'text-muted-foreground'
                 }`}
               />
