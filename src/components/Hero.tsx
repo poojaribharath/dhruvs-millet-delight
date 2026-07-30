@@ -29,29 +29,29 @@ const Hero = () => {
           {/* Main heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold mb-6 leading-tight">
             Nourish Your Body with
-            <span className="block gradient-fresh bg-clip-text text-transparent">
+            <span className="block text-turmeric">
               Dhruv's Millet Delight
             </span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-primary-foreground mb-8 max-w-3xl mx-auto">
             Discover the power of ancient grains with our premium collection of 
             healthy, delicious millet-based snacks that fuel your wellness journey.
           </p>
 
           {/* Features */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-            <div className="flex items-center justify-center space-x-3 bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-4">
-              <Shield className="w-6 h-6 text-accent" />
+            <div className="flex items-center justify-center space-x-3 bg-foreground/70 backdrop-blur-sm border border-primary-foreground/25 rounded-lg p-4">
+              <Shield className="w-6 h-6 text-mint" aria-hidden="true" />
               <span className="font-medium">100% Natural</span>
             </div>
-            <div className="flex items-center justify-center space-x-3 bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-4">
-              <Zap className="w-6 h-6 text-turmeric" />
+            <div className="flex items-center justify-center space-x-3 bg-foreground/70 backdrop-blur-sm border border-primary-foreground/25 rounded-lg p-4">
+              <Zap className="w-6 h-6 text-turmeric" aria-hidden="true" />
               <span className="font-medium">High Protein</span>
             </div>
-            <div className="flex items-center justify-center space-x-3 bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-4">
-              <Star className="w-6 h-6 text-secondary" />
+            <div className="flex items-center justify-center space-x-3 bg-foreground/70 backdrop-blur-sm border border-primary-foreground/25 rounded-lg p-4">
+              <Star className="w-6 h-6 text-mint" aria-hidden="true" />
               <span className="font-medium">Gluten Free</span>
             </div>
           </div>
