@@ -169,7 +169,7 @@ const Laddoos = () => {
               <div className="flex items-center space-x-4">
                 {/* Sort */}
                 <Select defaultValue="featured">
-                  <SelectTrigger className="w-48">
+                  <SelectTrigger className="w-48" aria-label="Sort products">
                     <SelectValue placeholder="Sort by" />
                   </SelectTrigger>
                   <SelectContent>
