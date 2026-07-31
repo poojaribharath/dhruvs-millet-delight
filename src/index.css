@@ -8,15 +8,17 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Dhruv's Millet Delight Design System - Fresh & Healthy Palette */
-    --background: 210 17% 98%; /* Natural White */
-    --foreground: 145 63% 25%; /* Dark Fresh Green */
+    /* Dhruv's Millet Delight Design System - Fresh & Healthy Palette
+       60-30-10: 60% natural white surfaces, 30% neutral charcoal text/UI, 10% green + turmeric accents. */
+    --background: 210 17% 98%; /* Natural White — 60% */
+    --foreground: 150 8% 16%; /* Neutral charcoal (slight warm-green cast) — 30% */
 
-    --card: 210 17% 98%;
-    --card-foreground: 145 63% 25%;
+    --card: 0 0% 100%;
+    --card-foreground: 150 8% 16%;
 
-    --popover: 210 17% 98%;
-    --popover-foreground: 145 63% 25%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 8% 16%;
+
 
     /* Fresh Green as Primary */
     --primary: 145 63% 27%;
@@ -45,15 +47,16 @@ All colors MUST be HSL.
     --secondary-ink: 82 45% 26%;
     --info-ink: 190 80% 24%;
 
-    --muted: 82 27% 75%;
-    --muted-foreground: 145 45% 28%;
+    --muted: 150 8% 95%;
+    --muted-foreground: 150 6% 38%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 17% 98%;
 
-    --border: 148 57% 85%;
-    --input: 148 57% 90%;
+    --border: 150 8% 89%;
+    --input: 150 8% 89%;
     --ring: 145 63% 27%;
+
 
     --radius: 0.75rem;
 
