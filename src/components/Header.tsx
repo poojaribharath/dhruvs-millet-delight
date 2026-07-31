@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X, ShoppingCart, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import milletIcon from "@/assets/millet-icon.png";
+import logo from "@/assets/dnutrinest-logo.png.asset.json";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,11 +20,12 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img src={milletIcon} alt="Millet Icon" className="w-8 h-8" />
+            <img src={logo.url} alt="D'NutriNest logo" className="w-10 h-10 object-contain" />
             <div className="text-xl font-heading font-bold text-primary">
-              Dhruv's Millet Delight
+              D'NutriNest
             </div>
           </div>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">

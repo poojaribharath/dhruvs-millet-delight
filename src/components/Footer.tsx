@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import milletIcon from "@/assets/millet-icon.png";
+import logo from "@/assets/dnutrinest-logo.png.asset.json";
 
 const Footer = () => {
   const footerLinks = {
@@ -70,10 +70,11 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <img src={milletIcon} alt="Millet Icon" className="w-8 h-8 filter brightness-0 invert" />
+              <img src={logo.url} alt="D'NutriNest logo" className="w-10 h-10 object-contain" />
               <div className="text-xl font-heading font-bold">
-                Dhruv's Millet Delight
+                D'NutriNest
               </div>
+
             </div>
             <p className="text-primary-foreground/90 mb-6 leading-relaxed">
               Committed to bringing you the finest millet-based products that combine 
