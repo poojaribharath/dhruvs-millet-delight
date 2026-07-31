@@ -149,7 +149,7 @@ const Shop = () => {
               <div className="flex items-center space-x-4">
                 {/* Sort */}
                 <Select defaultValue="featured">
-                  <SelectTrigger className="w-48">
+                  <SelectTrigger className="w-48" aria-label="Sort products">
                     <SelectValue placeholder="Sort by" />
                   </SelectTrigger>
                   <SelectContent>
@@ -166,6 +166,8 @@ const Shop = () => {
                   <Button
                     variant={viewMode === 'grid' ? 'secondary' : 'ghost'}
                     size="sm"
+                    aria-label="Grid view"
+                    aria-pressed={viewMode === 'grid'}
                     onClick={() => setViewMode('grid')}
                   >
                     <Grid className="w-4 h-4" />
@@ -173,6 +175,8 @@ const Shop = () => {
                   <Button
                     variant={viewMode === 'list' ? 'secondary' : 'ghost'}
                     size="sm"
+                    aria-label="List view"
+                    aria-pressed={viewMode === 'list'}
                     onClick={() => setViewMode('list')}
                   >
                     <List className="w-4 h-4" />

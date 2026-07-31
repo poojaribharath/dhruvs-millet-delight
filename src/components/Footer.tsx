@@ -80,13 +80,13 @@ const Footer = () => {
               ancient wisdom with modern nutrition science for a healthier lifestyle.
             </p>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="icon" className="text-primary-foreground hover:text-accent hover:bg-primary-foreground/10">
+              <Button variant="ghost" size="icon" aria-label="Facebook" className="text-primary-foreground hover:text-accent hover:bg-primary-foreground/10">
                 <Facebook className="w-5 h-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="text-primary-foreground hover:text-accent hover:bg-primary-foreground/10">
+              <Button variant="ghost" size="icon" aria-label="Instagram" className="text-primary-foreground hover:text-accent hover:bg-primary-foreground/10">
                 <Instagram className="w-5 h-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="text-primary-foreground hover:text-accent hover:bg-primary-foreground/10">
+              <Button variant="ghost" size="icon" aria-label="Twitter" className="text-primary-foreground hover:text-accent hover:bg-primary-foreground/10">
                 <Twitter className="w-5 h-5" />
               </Button>
             </div>

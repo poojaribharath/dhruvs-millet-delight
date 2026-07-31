@@ -19,24 +19,24 @@ All colors MUST be HSL.
     --popover-foreground: 145 63% 25%;
 
     /* Fresh Green as Primary */
-    --primary: 145 63% 30%;
+    --primary: 145 63% 27%;
     --primary-foreground: 210 17% 98%;
     --primary-hover: 145 63% 24%;
     --primary-glow: 145 63% 40%;
 
     /* Sage Green as Secondary */
     --secondary: 82 27% 62%;
-    --secondary-foreground: 145 63% 25%;
+    --secondary-foreground: 145 63% 18%;
     --secondary-hover: 82 27% 55%;
 
     /* Mint Fresh as Accent */
     --accent: 148 57% 69%;
-    --accent-foreground: 145 63% 25%;
+    --accent-foreground: 145 63% 18%;
     --accent-hover: 148 57% 62%;
 
     /* Turmeric Yellow for CTAs and Highlights */
     --turmeric: 48 86% 59%;
-    --turmeric-foreground: 145 63% 25%;
+    --turmeric-foreground: 145 63% 18%;
     --turmeric-hover: 48 86% 52%;
 
     /* Accessible "ink" variants for colored text/icons on light surfaces (WCAG AA) */
@@ -53,12 +53,12 @@ All colors MUST be HSL.
 
     --border: 148 57% 85%;
     --input: 148 57% 90%;
-    --ring: 145 63% 30%;
+    --ring: 145 63% 27%;
 
     --radius: 0.75rem;
 
     /* Design System Tokens */
-    --success: 145 63% 30%;
+    --success: 145 63% 27%;
     --warning: 48 86% 59%;
     --info: 148 57% 69%;
 
