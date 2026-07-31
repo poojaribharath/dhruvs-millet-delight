@@ -81,6 +81,7 @@ const ProductShowcase = () => {
                 <Button
                   variant="ghost"
                   size="icon"
+                  aria-label={`Add ${product.name} to wishlist`}
                   className="absolute top-3 right-3 bg-primary-foreground/80 hover:bg-background hover:text-destructive transition-all"
                 >
                   <Heart className="w-4 h-4" />

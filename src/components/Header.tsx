@@ -41,13 +41,13 @@ const Header = () => {
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" size="icon" className="relative">
+            <Button variant="ghost" size="icon" aria-label="Wishlist" className="relative">
               <Heart className="w-5 h-5" />
               <span className="absolute -top-1 -right-1 bg-turmeric text-turmeric-foreground text-xs rounded-full w-5 h-5 flex items-center justify-center">
                 2
               </span>
             </Button>
-            <Button variant="ghost" size="icon" className="relative">
+            <Button variant="ghost" size="icon" aria-label="Shopping cart" className="relative">
               <ShoppingCart className="w-5 h-5" />
               <span className="absolute -top-1 -right-1 bg-turmeric text-turmeric-foreground text-xs rounded-full w-5 h-5 flex items-center justify-center">
                 3
@@ -63,6 +63,8 @@ const Header = () => {
             <Button
               variant="ghost"
               size="icon"
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMenuOpen}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}

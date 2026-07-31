@@ -166,6 +166,8 @@ const Shop = () => {
                   <Button
                     variant={viewMode === 'grid' ? 'secondary' : 'ghost'}
                     size="sm"
+                    aria-label="Grid view"
+                    aria-pressed={viewMode === 'grid'}
                     onClick={() => setViewMode('grid')}
                   >
                     <Grid className="w-4 h-4" />
@@ -173,6 +175,8 @@ const Shop = () => {
                   <Button
                     variant={viewMode === 'list' ? 'secondary' : 'ghost'}
                     size="sm"
+                    aria-label="List view"
+                    aria-pressed={viewMode === 'list'}
                     onClick={() => setViewMode('list')}
                   >
                     <List className="w-4 h-4" />

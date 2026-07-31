@@ -42,6 +42,7 @@ const ProductCard = ({ product, showQuickView = false }: ProductCardProps) => {
           <Button
             variant="ghost"
             size="icon"
+            aria-label={`Add ${product.name} to wishlist`}
             className="bg-primary-foreground/90 hover:bg-background hover:text-destructive transition-all"
           >
             <Heart className="w-4 h-4" />
@@ -50,6 +51,7 @@ const ProductCard = ({ product, showQuickView = false }: ProductCardProps) => {
             <Button
               variant="ghost"
               size="icon"
+              aria-label={`Quick view ${product.name}`}
               className="bg-primary-foreground/90 hover:bg-background transition-all"
             >
               <Eye className="w-4 h-4" />
